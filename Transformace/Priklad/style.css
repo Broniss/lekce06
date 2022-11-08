@@ -20,5 +20,30 @@ h2 {
 .zvetseni	{ background-color: #3498db;}
 
 /* ----------------------- */
+.posun {
+	transition: 5s;
+}
 
+.posun:hover {
+	transform: translate(100px, 250px);
+}
+
+.rotace {
+	transition: 2s;
+}
+
+.rotace:hover {
+	transform: rotate(360deg);
+	background-color: yellowgreen;
+	transform-origin: top left;
+}
+
+.zvetseni {
+	transition: 2s;
+}
+
+.zvetseni:hover {
+	transform: scale(1.2);
+	transform-origin: top left;
+}
 
